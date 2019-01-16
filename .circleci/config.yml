@@ -9,7 +9,6 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          shell: /bin/sh
           command: npm install
       - run:
           name: Run tests
